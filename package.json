@@ -1,0 +1,13 @@
+{
+  "name": "intelliscan",
+  "version": "1.0.0",
+  "description": "IntelliScan - Intelligent File Intelligence and Storage Optimization Engine",
+  "scripts": {
+    "start": "node backend/server.js",
+    "compile-cpp": "\"C:\\Program Files\\CodeBlocks\\MinGW\\bin\\g++.exe\" -std=c++17 -O2 -o cpp-engine/intelliscan_engine.exe cpp-engine/main.cpp cpp-engine/FileScanner.cpp cpp-engine/DuplicateDetector.cpp cpp-engine/StorageAnalyzer.cpp cpp-engine/SearchEngine.cpp cpp-engine/PriorityManager.cpp cpp-engine/UndoManager.cpp",
+    "test-engine": "cpp-engine\\intelliscan_engine.exe test"
+  },
+  "keywords": ["dsa", "c++17", "file-scanner", "storage-optimization", "duplicates-detector"],
+  "author": "IntelliScan Team",
+  "license": "MIT"
+}
